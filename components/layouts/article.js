@@ -1,9 +1,6 @@
 import { motion } from 'framer-motion'
 import Head from 'next/head'
 import { GridItemStyle } from '../grid-item'
-import DeckGL from '@deck.gl/react';
-import {MapView, FirstPersonView} from '@deck.gl/core';
-import {Map} from 'react-map-gl';
 import React from 'react';
 
 const variants = {
