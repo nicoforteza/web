@@ -109,13 +109,13 @@ const Posts = () => (
         <SimpleGrid columns={[2, 2, 2]} gap={6}>
             <GridItem 
             thumbnail={madridbuiltup_jpg}
-            href='../madrid_built-up.pdf'
+            href='madrid_built-up.pdf'
             >
             </GridItem>
 
             <GridItem 
             thumbnail={spainexpden}
-            href='../expden_spain.pdf'
+            href='expden_spain.pdf'
             >
             </GridItem>
 
