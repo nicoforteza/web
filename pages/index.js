@@ -16,6 +16,7 @@ import Section from '../components/section'
 import { IoLogoTwitter, IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5'
 import Image from 'next/image'
 import { mode } from '@chakra-ui/theme-tools'
+import me from '../public/me.jpg'
 
 
 const Home = () => (
@@ -50,7 +51,7 @@ const Home = () => (
             overflow="hidden"
           >
             <Image
-              src="/me.jpg"
+              src={me}
               alt="Profile image"
               borderRadius="full"
               width="100"
