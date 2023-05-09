@@ -6,8 +6,8 @@ import { GridItem, GridItemNoImg, GridItemA } from '../components/grid-item'
 import { Meta } from '../components/work'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
 import { Link, List, ListItem, Divider} from '@chakra-ui/react'
-import madridbuiltup_jpg from '../public/images/contents/madrid_built-up.jpg'
-import spainexpden from '../public/images/contents/expden_spain.jpg'
+import madridbuiltup_jpg from '../public/madrid_built-up.jpg'
+import spainexpden from '../public/expden_spain.jpg'
 
 const Posts = () => (
   <Layout title="Random Stuff" duration={0.5}>
@@ -109,13 +109,13 @@ const Posts = () => (
         <SimpleGrid columns={[2, 2, 2]} gap={6}>
             <GridItem 
             thumbnail={madridbuiltup_jpg}
-            href='../images/contents/madrid_built-up.pdf'
+            href='../madrid_built-up.pdf'
             >
             </GridItem>
 
             <GridItem 
             thumbnail={spainexpden}
-            href='../images/contents/expden_spain.pdf'
+            href='../expden_spain.pdf'
             >
             </GridItem>
 

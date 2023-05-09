@@ -9,7 +9,7 @@ import {
 import { ExternalLinkIcon } from '@chakra-ui/icons'
 import { Title, WorkImage, Meta } from '../../components/work'
 import P from '../../components/paragraph'
-import Layout from '../../components/layouts/article'
+import Layout from '../../components/layouts/article' 
 
 const Work = () => (
   <Layout title="EFF Website">
@@ -38,10 +38,6 @@ const Work = () => (
           <span>Dash, Python, HTML, CSS, jQuery, JS</span>
         </ListItem>
       </List>
-
-      <WorkImage src="/images/works/eff-web-explore.png" alt="EFF Web" />
-      <WorkImage src="/images/works/eff-web-dl.png" alt="EFF Web" />
-      <WorkImage src="/images/works/eff-web-code.png" alt="EFF Web" />
     </Container>
   </Layout>
 )
