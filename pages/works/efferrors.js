@@ -48,4 +48,4 @@ precision and recall in the survey agency in order to select the optimal classif
 )
 
 export default Work
-export { getStaticProps } from '../../components/chakra'
+export { getServerSideProps } from '../../components/chakra'
