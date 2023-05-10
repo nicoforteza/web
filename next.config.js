@@ -1,6 +1,9 @@
 module.exports = {
   assetPrefix: "/web/",
   reactStrictMode: true,
+  env: {
+    noflash: '/noflash.js'
+  },
   swcMinify: true,
   webpack: (config) => {
     config.module.rules.push({
