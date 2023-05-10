@@ -179,4 +179,4 @@ const Home = () => (
 )
 
 export default Home
-export { getStaticProps } from '../components/chakra'
+// export { getStaticProps } from '../components/chakra'
