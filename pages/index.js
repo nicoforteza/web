@@ -78,7 +78,7 @@ const Home = () => (
           <Link as={NextLink} href="https://app.bde.es/efs_www/home?lang=ES" target='blank_' passHref scroll={false}>
             Spanish Survey of Household Finances
           </Link>
-          . In addition, I research in various economic topics, using data science techniques and methodologies. I invite you to take a look at <span></span>
+          . In addition, I do research on various Economics topics, using data science techniques and methodologies. I invite you to take a look at <span></span>
           <Link as={NextLink} href="/works" passHref scroll={false}>
             my work.
           </Link>
@@ -91,7 +91,7 @@ const Home = () => (
         </Heading>
         <BioSection>
           <BioYear>1994</BioYear>
-          Born and raise in Spain, Argentinian descendant.
+          Born and raised in Spain, Argentinian descendant.
         </BioSection>
         <BioSection>
           <BioYear>2016</BioYear>
