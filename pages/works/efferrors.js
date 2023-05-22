@@ -35,13 +35,7 @@ const Work = () => (
           Survey Methodology, Machine Learning
         </ListItem>
       </List>
-      <P> Errors in household survey data may proliferate in population estimates, specially when there is
-oversampling of some population groups. Manual case-by-case revision has been commonly applied
-in order to identify and correct potential errors and omissions. Using data from the Spanish Survey of
-Household Finances we provide the best-performing supervised classification algorithm for the task of
-prioritizing cases with substantial errors and omissions. Our results show that a gradient boosting trees
-classifier improves the early identification of cases by a 50%. We also provide a framework that allows for the trade-off between
-precision and recall in the survey agency in order to select the optimal classification threshold
+      <P> Errors in household finance survey data may proliferate in population estimates, specially when there is oversampling of some population groups. Manual case-by-case revision has been commonly applied in order to identify and correct potential errors and omissions. Using data from the Spanish Survey of Household Finances we provide the best-performing supervised classification algorithm for the task of prioritizing cases with substantial errors and omissions. Our results show that a Gradient Boosting Trees classifier outperforms several competing classifiers. We also provide a framework that takes into account the trade-off between precision and recall in the survey agency in order to select the optimal classification threshold.
       </P>
     </Container>
   </Layout>
