@@ -65,6 +65,17 @@ const Works = () => (
           </WorkGridItemNoLink>
         </Section>
 
+        <Section delay={0.3}>
+          <WorkGridItemNoLink
+            title="Real Time Price Rigidity Measures Using Webscraped Price Data"
+            meta_color_2={"green"}
+            meta2="Draft soon!"
+            meta1="2023"
+            >
+            with Elvira Prades and Marc Roca
+          </WorkGridItemNoLink>
+        </Section>
+
       </SimpleGrid>
 
       <Section delay={0.4}>
