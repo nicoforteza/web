@@ -79,6 +79,32 @@ export const WorkGridItem = ({ children, id, title, thumbnail, meta1, meta2, met
   </Box>
 )
 
+export const LinkGridItem = ({ children, id, title, href, meta1, meta2, meta_color_1, meta_color_2 }) => (
+  <Box w="100%" textAlign="left">
+    <LinkBox
+      as={NextLink}
+      href={href}
+      scroll={false}
+      cursor="pointer"
+      target="_blank"
+    >
+      <LinkOverlay as="div" href={href} target='_blank'>
+        <Text mt={2} fontSize={18}>
+        {title}
+        <span> </span>
+        <Meta color={meta_color_1}>
+        {meta1}
+        </Meta>
+        <Meta color={meta_color_2}>
+        {meta2}
+        </Meta>
+        </Text>
+      </LinkOverlay>
+      <Text fontSize={14}>{children}</Text>
+    </LinkBox>
+  </Box>
+)
+
 export const WorkGridItemExternal = ({ children, href, id, title, thumbnail, meta1, meta2, meta_color_1, meta_color_2 }) => (
   <Box w="100%" textAlign="left">
     <LinkBox

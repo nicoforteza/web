@@ -1,5 +1,5 @@
 module.exports = {
-  assetPrefix: "/web/",
+  /*assetPrefix: "/web/",*/
   reactStrictMode: true,
   env: {
     noflash: '/noflash.js'

@@ -1,7 +1,7 @@
-import { Container, Heading, SimpleGrid, Divider } from '@chakra-ui/react'
+import { Container, Heading, SimpleGrid, Divider, Link } from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
-import { WorkGridItem, WorkGridItemNoLink, WorkGridItemExternal } from '../components/grid-item'
+import { WorkGridItem, WorkGridItemNoLink, WorkGridItemExternal, LinkGridItem } from '../components/grid-item'
 
 const Works = () => (
   <Layout title="Works" duration={0.5}>
@@ -31,15 +31,15 @@ const Works = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={1}>
         <Section delay={0.3}>
-          <WorkGridItem
-          id="efferrors" 
+          <LinkGridItem
+          href="https://www.bde.es/f/webbe/SES/Secciones/Publicaciones/PublicacionesSeriadas/DocumentosTrabajo/23/Files/dt2330e.pdf" 
           title="A Score Function to Prioritize Editing in Household Survey Data: A Machine Learning Approach"
           meta1="2023"
-          meta2="Draft soon!"
+          meta2="Working Paper"
           meta_color_2={"green"}
           >
           with Sandra García-Uribe
-          </WorkGridItem>
+          </LinkGridItem>
         </Section>
         
         <Section delay={0.3}>
@@ -67,7 +67,7 @@ const Works = () => (
 
         <Section delay={0.3}>
           <WorkGridItemNoLink
-            title="Real Time Price Rigidity Measures Using Webscraped Price Data"
+            title="Analysing the VAT Cut Pass-Through in Spain using Supermarkets' Web-scraped Data and Machine Learning"
             meta_color_2={"green"}
             meta2="Draft soon!"
             meta1="2023"
@@ -92,7 +92,7 @@ const Works = () => (
            title="ggBdE"
            meta1={"2023"}
            >
-          A library in R to customize ggplot graphics according to the Bank of Spain corporate image.
+          Proprietary R library to customize ggPlot graphics according to the Bank of Spain corporate image.
           </WorkGridItemNoLink>
         </Section>
 

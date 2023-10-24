@@ -13,7 +13,7 @@ import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
-import { IoLogoTwitter, IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5'
+import { IoLogoTwitter, IoLogoGithub, IoLogoLinkedin, IoFileTraySharp } from 'react-icons/io5'
 import Image from 'next/image'
 import { mode } from '@chakra-ui/theme-tools'
 import me from '../public/me.jpg'
@@ -30,7 +30,7 @@ const Home = () => (
           variant="page-title"
           style={{'letter-spacing': '-0.3px'}}
           >
-            Nicolás Forteza
+            <h1>Nicolás Forteza</h1>
           </Heading>
           <p>Data Scientist</p>
         </Box>
@@ -125,10 +125,6 @@ const Home = () => (
           <BioYear>Email</BioYear>
           nicolas.forteza@bde.es
         </BioSection>
-        <BioSection>
-          <BioYear>Phone</BioYear>
-          +34 675382147
-        </BioSection>
       </Section>
 
       <Section delay={0.3}>
@@ -144,7 +140,7 @@ const Home = () => (
                 colorScheme={mode('#319795', '#ff63c3')}
                 leftIcon={<IoLogoGithub />}
               >
-                @nicoforteza
+                Github
               </Button>
             </Link>
           </ListItem>
@@ -157,7 +153,7 @@ const Home = () => (
                 leftIcon={<IoLogoTwitter />}
                 padding-left={0}
               >
-                @nicoforteza1
+                X/Twitter
               </Button>
             </Link>
           </ListItem>
@@ -169,6 +165,17 @@ const Home = () => (
                 colorScheme={mode('#319795', '#ff63c3')}
                 leftIcon={<IoLogoLinkedin />}
               >  Linkedin
+              </Button>
+            </Link>
+          </ListItem>
+          <ListItem>
+            <Link href="https://orcid.org/0009-0003-7227-9338" target="_blank">
+              <Button
+                variant="ghost"
+                style={{"text-align": "left !important", "padding-left": "0px"}}
+                colorScheme={mode('#319795', '#ff63c3')}
+                leftIcon={<IoFileTraySharp />}
+              >  Orcid
               </Button>
             </Link>
           </ListItem>

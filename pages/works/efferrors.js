@@ -27,15 +27,25 @@ const Work = () => (
           </span>
         </ListItem>
         <ListItem>
-          <Meta color={"green"}>Conference Alert!</Meta>
-          This paper will be presented at the <Link href="https://ww2.amstat.org/meetings/sdss/2023/" target="_blank">Symposium of Data Science and Statistics</Link> of the American Statistical Association (2023).
+          <Meta color={"green"}>Link</Meta>
+          <Link href="https://www.bde.es/f/webbe/SES/Secciones/Publicaciones/PublicacionesSeriadas/DocumentosTrabajo/23/Files/dt2330e.pdf" target="_blank">Working Paper</Link> 
         </ListItem>
         <ListItem>
         <Meta color={"green"}>Topics</Meta>
           Survey Methodology, Machine Learning
         </ListItem>
       </List>
-      <P> Errors in household finance survey data may proliferate in population estimates, specially when there is oversampling of some population groups. Manual case-by-case revision has been commonly applied in order to identify and correct potential errors and omissions. Using data from the Spanish Survey of Household Finances we provide the best-performing supervised classification algorithm for the task of prioritizing cases with substantial errors and omissions. Our results show that a Gradient Boosting Trees classifier outperforms several competing classifiers. We also provide a framework that takes into account the trade-off between precision and recall in the survey agency in order to select the optimal classification threshold.
+      <P> Errors in the collection of household finance survey data may proliferate in population
+estimates, especially when there is oversampling of some population groups. Manual
+case-by-case revision has been commonly applied in order to identify and correct potential
+errors and omissions such as omitted or misreported assets, income and debts. We
+derive a machine learning approach for the purpose of classifying survey data affected by
+severe errors and omissions in the revision phase. Using data from the Spanish Survey of
+Household Finances we provide the best-performing supervised classification algorithm
+for the task of prioritizing cases with substantial errors and omissions. Our results show
+that a Gradient Boosting Trees classifier outperforms several competing classifiers. We
+also provide a framework that takes into account the trade-off between precision and
+recall in the survey agency in order to select the optimal classification threshold.
       </P>
     </Container>
   </Layout>
