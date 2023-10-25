@@ -11,7 +11,6 @@ const Main = ({ children, router }) => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="description" content="Nico's homepage" />
         <meta name="author" content="Nicolás Forteza" />
-        <meta name="author" content="craftzdog" />
         <link rel="apple-touch-icon" href="icons8-mate-office-32.png" />
         <link rel="shortcut icon" href="/icons8-mate-office-16.png" type="image/x-icon" />
         <meta name="twitter:title" content="Nicolás Forteza" />
@@ -21,7 +20,12 @@ const Main = ({ children, router }) => {
         <meta property="og:site_name" content="Nicolás Forteza" />
         <meta name="og:title" content="Nicolás Forteza" />
         <meta property="og:type" content="website" />
-        <title>Nicolás Forteza - Homepage</title>
+        <title>Nico Forteza Web</title>
+        <meta
+          name="description"
+          content="Check Nicolás Forteza's work as a Data Scientist at the Banco de España (Bank of Spain)"
+          key="desc"
+        />
       </Head>
 
       <NavBar path={router.asPath} />
