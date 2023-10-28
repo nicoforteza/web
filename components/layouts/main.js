@@ -10,6 +10,7 @@ const Main = ({ children, router }) => {
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="author" content="Nicolás Forteza" />
+        <meta name="keywords" content="nicolas forteza, bde, banco de españa, bank of spain" />
         <link rel="apple-touch-icon" href="icons8-mate-office-32.png" />
         <link rel="shortcut icon" href="/icons8-mate-office-16.png" type="image/x-icon" />
         <meta property="og:type" content="website" />
