@@ -11,14 +11,22 @@ const Works = () => (
       </Heading>
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
-        <Section>
-          <WorkGridItem 
-          id="effwebsite" 
-          title="EFF Website"
-          meta1={"2020-"}
+      <Section>
+          <LinkGridItem 
+          href="https://app.bde.es/efs_www/home?lang=EN"
+          title="Spanish Survey of Household Finance (ECF) website"
+          meta1={"2020"}
           >
-          Spanish Survey of Household Finances (EFF) website
-          </WorkGridItem>
+          </LinkGridItem>
+        </Section>
+
+        <Section>
+          <LinkGridItem 
+          href="https://app.bde.es/efs_ecf/home?lang=EN"
+          title="Survey of Financial Competences (ECF) website"
+          meta1={"2023"}
+          >
+          </LinkGridItem>
         </Section>
       </SimpleGrid>
 
