@@ -8,6 +8,7 @@ import { ExternalLinkIcon } from '@chakra-ui/icons'
 import { Link, List, ListItem, Divider} from '@chakra-ui/react'
 import madridbuiltup_jpg from '../public/madrid_built-up.jpg'
 import spainexpden from '../public/expden_spain.jpg'
+import madridincomepo from '../public/madrid_income_pol.png'
 
 const Posts = () => (
   <Layout title="Random Stuff" duration={0.5}>
@@ -116,6 +117,12 @@ const Posts = () => (
             <GridItem 
             thumbnail={spainexpden}
             href='expden_spain.pdf'
+            >
+            </GridItem>
+
+            <GridItem 
+            thumbnail={madridincomepo}
+            href='madrid_inc_pol.pdf'
             >
             </GridItem>
 
