@@ -11,11 +11,7 @@ const Main = ({ children, router }) => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="author" content="Nicolás Forteza" />
         <meta name="keywords" content="nicolas forteza, bde, banco de españa, bank of spain" />
-        <meta name="google-site-verification" content="IZdjJ9beGDCGBWYDw_uBegsHRPNOCWgFRu5_0YX1FEI" />
-        <link rel="apple-touch-icon" href="icons8-mate-office-32.png" />
-        <link rel="shortcut icon" href="/icons8-mate-office-16.png" type="image/x-icon" />
-        <meta property="og:type" content="website" />
-        <title>Nico Forteza Web</title>
+        <title>Nicolás Forteza - Data Scientist at Bank of Spain</title>
         <meta
           name="description"
           content="Check Nicolás Forteza's work as a Data Scientist at the Banco de España (Bank of Spain)"
