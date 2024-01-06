@@ -95,7 +95,7 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2016</BioYear>
-          B.Sc. Economis and Finance at Universidad Autónoma de Madrid.
+          B.Sc. Economics and Finance at Universidad Autónoma de Madrid.
         </BioSection>
         <BioSection>
           <BioYear>2017</BioYear>
