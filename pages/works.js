@@ -64,7 +64,7 @@ const Works = () => (
 
         <Section delay={0.3}>
           <WorkGridItemNoLink
-            title="Alternative Unemployment Measures with Machine Learning"
+            title="Measuring non-Workers Labor Market Attachment with Machine Learning"
             meta_color_2={"green"}
             meta2="Draft soon!"
             meta1="2023"
