@@ -53,6 +53,7 @@ const Works = () => (
         
         <Section delay={0.3}>
           <LinkGridItem
+            thumbnail={wp_vat}
             href="FortezaPradesRoca_2024.pdf"
             title="Analysing the VAT Cut Pass-Through in Spain using Supermarkets' Web-scraped Data and Machine Learning"
             meta_color_2={"green"}
