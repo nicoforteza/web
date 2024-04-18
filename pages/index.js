@@ -28,7 +28,7 @@ const Home = () => (
           <Heading 
           as="h2" 
           variant="page-title"
-          style={{'letter-spacing': '-0.3px'}}
+          style={{'letterSpacing': '-0.3px'}}
           >
             <h1>Nicolás Forteza</h1>
           </Heading>
@@ -47,13 +47,13 @@ const Home = () => (
             w="100px"
             h="100px"
             display="inline-block"
-            borderRadius="full"
+            borderradius="full"
             overflow="hidden"
           >
             <Image
               src={me}
               alt="Profile image"
-              borderRadius="full"
+              borderradius="full"
               width="100"
               height="100"
             />
@@ -62,6 +62,25 @@ const Home = () => (
       </Box>
 
       <Section delay={0.1}>
+
+      <Heading as="h3" variant="section-title">
+          Forthcoming Conferences:
+        </Heading>
+
+        <Paragraph>
+        <Link as={NextLink} href="https://www.kcl.ac.uk/events/econdat-conference-2024" target='blank_' passHref scroll={false}>
+            ECONDAT {}
+          </Link>
+           spring meeting: Economics with Nontraditional Data and Analytical Tools (London, May 2024)
+        </Paragraph>
+
+        <Paragraph>
+        <Link as={NextLink} href="https://ww2.amstat.org/meetings/jsm/2024/" target='blank_' passHref scroll={false}>
+            Joint Statistical Meeting {}
+          </Link>
+           (JSM) of the American Statistical Association (Portland, August 2024)
+        </Paragraph>
+
         <Heading as="h3" variant="section-title">
           About me
         </Heading>
@@ -136,7 +155,7 @@ const Home = () => (
             <Link href="https://github.com/nicoforteza" target="_blank">
               <Button
                 variant="ghost"
-                style={{"text-align": "left !important", "padding-left": "0px"}}
+                style={{"textAlign": "left !important", "paddingLeft": "0px"}}
                 colorScheme={mode('#319795', '#ff63c3')}
                 leftIcon={<IoLogoGithub />}
               >
@@ -148,10 +167,10 @@ const Home = () => (
             <Link href="https://twitter.com/nicoforteza1" target="_blank">
               <Button
                 variant="ghost"
-                style={{"text-align": "left !important", "padding-left": "0px"}}
+                style={{"textAlign": "left !important", "paddingLeft": "0px"}}
                 colorScheme={mode('#319795', '#ff63c3')}
                 leftIcon={<IoLogoTwitter />}
-                padding-left={0}
+                paddingLeft={0}
               >
                 X/Twitter
               </Button>
@@ -161,7 +180,7 @@ const Home = () => (
             <Link href="https://www.linkedin.com/in/nicoforteza/" target="_blank">
               <Button
                 variant="ghost"
-                style={{"text-align": "left !important", "padding-left": "0px"}}
+                style={{"textAlign": "left !important", "paddingLeft": "0px"}}
                 colorScheme={mode('#319795', '#ff63c3')}
                 leftIcon={<IoLogoLinkedin />}
               >  Linkedin
@@ -172,7 +191,7 @@ const Home = () => (
             <Link href="https://orcid.org/0009-0003-7227-9338" target="_blank">
               <Button
                 variant="ghost"
-                style={{"text-align": "left !important", "padding-left": "0px"}}
+                style={{"textAlign": "left !important", "paddingLeft": "0px"}}
                 colorScheme={mode('#319795', '#ff63c3')}
                 leftIcon={<IoFileTraySharp />}
               >  Orcid

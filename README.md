@@ -13,3 +13,5 @@ You can check my [personal webpage]
 MIT License.
 
 Forked from this repo [https://www.craftz.dog/](https://www.craftz.dog/)
+
+> Not working? [DO THIS](https://stackoverflow.com/questions/77232531/run-of-a-next-js-app-stucked-npm-run-dev-doesnt-work)

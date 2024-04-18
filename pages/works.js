@@ -2,7 +2,6 @@ import { Container, Heading, SimpleGrid, Divider, Link } from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { WorkGridItem, WorkGridItemNoLink, WorkGridItemExternal, LinkGridItem } from '../components/grid-item'
-import wp_vat from '../public/FortezaPradesRoca_2024.pdf'
 
 const Works = () => (
   <Layout title="Works" duration={0.5}>
@@ -39,6 +38,30 @@ const Works = () => (
       </Section>
 
       <SimpleGrid columns={[1, 1, 2]} gap={1}>
+
+      <Section delay={0.3}>
+          <LinkGridItem
+            href="Forteza_v1_density.pdf"
+            title="Pollution, Density and Urban Access Regulations: European Evidence"
+            meta_color_2={"green"}
+            meta2="DRAFT"
+            meta1="2024"
+            >
+          </LinkGridItem>
+        </Section>
+
+      <Section delay={0.3}>
+          <LinkGridItem
+            href="FortezaPradesRoca_2024.pdf"
+            title="Analysing the VAT Cut Pass-Through in Spain using Supermarkets' Web-scraped Data and Machine Learning"
+            meta_color_2={"green"}
+            meta2="Working Paper"
+            meta1="2024"
+            >
+            with Elvira Prades and Marc Roca
+          </LinkGridItem>
+        </Section>
+
         <Section delay={0.3}>
           <LinkGridItem
           href="https://www.bde.es/f/webbe/SES/Secciones/Publicaciones/PublicacionesSeriadas/DocumentosTrabajo/23/Files/dt2330e.pdf" 
@@ -48,19 +71,6 @@ const Works = () => (
           meta_color_2={"green"}
           >
           with Sandra García-Uribe
-          </LinkGridItem>
-        </Section>
-        
-        <Section delay={0.3}>
-          <LinkGridItem
-            thumbnail={wp_vat}
-            href="FortezaPradesRoca_2024.pdf"
-            title="Analysing the VAT Cut Pass-Through in Spain using Supermarkets' Web-scraped Data and Machine Learning"
-            meta_color_2={"green"}
-            meta2="Working Paper"
-            meta1="2024"
-            >
-            with Elvira Prades and Marc Roca
           </LinkGridItem>
         </Section>
 
