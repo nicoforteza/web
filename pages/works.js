@@ -2,6 +2,7 @@ import { Container, Heading, SimpleGrid, Divider, Link } from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { WorkGridItem, WorkGridItemNoLink, WorkGridItemExternal, LinkGridItem } from '../components/grid-item'
+import wp_vat from '../public/FortezaPradesRoca_2024.pdf'
 
 const Works = () => (
   <Layout title="Works" duration={0.5}>
@@ -51,6 +52,18 @@ const Works = () => (
         </Section>
         
         <Section delay={0.3}>
+          <LinkGridItem
+            href="FortezaPradesRoca_2024.pdf"
+            title="Analysing the VAT Cut Pass-Through in Spain using Supermarkets' Web-scraped Data and Machine Learning"
+            meta_color_2={"green"}
+            meta2="Working Paper"
+            meta1="2024"
+            >
+            with Elvira Prades and Marc Roca
+          </LinkGridItem>
+        </Section>
+
+        <Section delay={0.3}>
           <WorkGridItemNoLink
           id="styly" 
           title="News Concentration"
@@ -75,12 +88,13 @@ const Works = () => (
 
         <Section delay={0.3}>
           <WorkGridItemNoLink
-            title="Analysing the VAT Cut Pass-Through in Spain using Supermarkets' Web-scraped Data and Machine Learning"
-            meta_color_2={"green"}
-            meta2="Draft soon!"
-            meta1="2023"
+            title="Evaluating the Measurement of Household Expectations with Audio Recordings and Machine
+            Learning"
+            meta_color_2={"red"}
+            meta2="Work in Progress"
+            meta1="2024"
             >
-            with Elvira Prades and Marc Roca
+            with Javier J. Alonso and Laura Crespo
           </WorkGridItemNoLink>
         </Section>
 
