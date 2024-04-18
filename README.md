@@ -1,6 +1,6 @@
 # Nico's Homepage
 
-You can check my [personal webpage]
+This is the repo of my [personal webpage](https://nicoforteza.github.io/web/)
 
 ## Stack
 
@@ -13,5 +13,9 @@ You can check my [personal webpage]
 MIT License.
 
 Forked from this repo [https://www.craftz.dog/](https://www.craftz.dog/)
+
+## Development
+
+> ```npm run dev``` for local running of the app.
 
 > Not working? [DO THIS](https://stackoverflow.com/questions/77232531/run-of-a-next-js-app-stucked-npm-run-dev-doesnt-work)
