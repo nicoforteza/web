@@ -41,7 +41,7 @@ const Works = () => (
 
       <Section delay={0.3}>
           <LinkGridItem
-            href="Forteza_v1_density.pdf"
+            href="FortezaLabeaga_v1.pdf"
             title="Pollution, Density and Urban Access Regulations: European Evidence"
             meta_color_2={"green"}
             meta2="DRAFT"
