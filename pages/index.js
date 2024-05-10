@@ -68,13 +68,6 @@ const Home = () => (
         </Heading>
 
         <Paragraph>
-        <Link as={NextLink} href="https://www.kcl.ac.uk/events/econdat-conference-2024" target='blank_' passHref scroll={false}>
-            ECONDAT {}
-          </Link>
-           spring meeting: Economics with Nontraditional Data and Analytical Tools (London, May 2024)
-        </Paragraph>
-
-        <Paragraph>
         <Link as={NextLink} href="https://ww2.amstat.org/meetings/jsm/2024/" target='blank_' passHref scroll={false}>
             Joint Statistical Meeting {}
           </Link>
