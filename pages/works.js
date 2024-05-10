@@ -47,6 +47,7 @@ const Works = () => (
             meta2="DRAFT"
             meta1="2024"
             >
+              with José M. Labeaga
           </LinkGridItem>
         </Section>
 
