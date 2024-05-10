@@ -114,6 +114,27 @@ const Works = () => (
       <Section delay={0.4}>
         <Divider my={6}/>
         <Heading as="h3" variant="section-title">
+          Discussions
+        </Heading>
+      </Section>
+      
+      <SimpleGrid columns={[1, 1, 2]} gap={1}>
+
+      <Section delay={0.4}>
+          <LinkGridItem
+            href="CrashNarratives_discussion.pdf"
+            title="Crash Narratives"
+            meta1="2024"
+            >
+            by William N. Goetzmann, Dasol Kim and Robert J. Shiller at ECONDAT 2024
+          </LinkGridItem>
+        </Section>
+
+      </SimpleGrid>
+
+      <Section delay={0.5}>
+        <Divider my={6}/>
+        <Heading as="h3" variant="section-title">
           Code
         </Heading>
       </Section>
