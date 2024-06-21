@@ -90,7 +90,7 @@ const Home = () => (
           <Link as={NextLink} href="https://app.bde.es/efs_www/home?lang=ES" target='blank_' passHref scroll={false}>
             Spanish Survey of Household Finances
           </Link>
-          . In addition, I do research on various Economics topics, using data science techniques and methodologies. I invite you to take a look at <span></span>
+          . In addition, I contribute to research on multiple Economics topics using data science techniques. I invite you to take a look at <span></span>
           <Link as={NextLink} href="/works" passHref scroll={false}>
             my work.
           </Link>
