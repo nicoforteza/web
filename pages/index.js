@@ -63,17 +63,6 @@ const Home = () => (
 
       <Section delay={0.1}>
 
-      <Heading as="h3" variant="section-title">
-          Forthcoming Conferences:
-        </Heading>
-
-        <Paragraph>
-        <Link as={NextLink} href="https://ww2.amstat.org/meetings/jsm/2024/" target='blank_' passHref scroll={false}>
-            Joint Statistical Meeting {}
-          </Link>
-           (JSM) of the American Statistical Association (Portland, August 2024)
-        </Paragraph>
-
         <Heading as="h3" variant="section-title">
           About me
         </Heading>

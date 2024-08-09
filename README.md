@@ -19,3 +19,21 @@ Forked from this repo [https://www.craftz.dog/](https://www.craftz.dog/)
 > ```npm run dev``` for local running of the app.
 
 > Not working? [DO THIS](https://stackoverflow.com/questions/77232531/run-of-a-next-js-app-stucked-npm-run-dev-doesnt-work)
+
+# Nice Resources
+
+This is a personal place where I place some nice educational and academic resources that I often use, or that I'd like to (eventually) use:
+
+#### Economics
+
+[American Economic Association Continuing Education](https://www.aeaweb.org/conference/cont-ed)
+
+#### Survey Methodology
+
+[Survey Research Methods Section ASA JSM Proceedings](http://www.asasrms.org/)
+
+#### Causal Inference
+
+[Causal Inference for the True and the Brave](https://matheusfacure.github.io/python-causality-handbook/landing-page.html)
+[The Mixtape](https://mixtape.scunning.com/)
+[The Effect](https://theeffectbook.net/)
