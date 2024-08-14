@@ -9,6 +9,8 @@ import { Link, List, ListItem, Divider} from '@chakra-ui/react'
 import madridbuiltup_jpg from '../public/madrid_built-up.jpg'
 import spainexpden from '../public/expden_spain.jpg'
 import madridincomepo from '../public/madrid_income_pol.png'
+import SoundCloudPlayer from '../components/sound';
+
 
 const Posts = () => (
   <Layout title="Random Stuff" duration={0.5}>
@@ -126,6 +128,27 @@ const Posts = () => (
             >
             </GridItem>
 
+        </SimpleGrid>
+
+      </Section>
+
+      <Section delay={0.3}>
+      <Divider my={6} />
+        <Heading as="h3" variant="section-title">
+            Music
+        </Heading>
+        <Text 
+        style={{'font-size': "12px"}}
+        >
+        Some sets I've recorded. Expect mostly house music. Enjoy!
+          </Text>
+    </Section>
+
+    <Section delay={0.35}>
+        <SimpleGrid columns={[2, 2, 2]} gap={6}>
+          <div>
+            <SoundCloudPlayer />
+          </div>
         </SimpleGrid>
 
       </Section>
