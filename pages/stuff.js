@@ -132,27 +132,6 @@ const Posts = () => (
 
       </Section>
 
-      <Section delay={0.3}>
-      <Divider my={6} />
-        <Heading as="h3" variant="section-title">
-            Music
-        </Heading>
-        <Text 
-        style={{'font-size': "12px"}}
-        >
-        Some sets I've recorded. Expect mostly house music. Enjoy!
-          </Text>
-    </Section>
-
-    <Section delay={0.35}>
-        <SimpleGrid columns={[2, 2, 2]} gap={6}>
-          <div>
-            <SoundCloudPlayer />
-          </div>
-        </SimpleGrid>
-
-      </Section>
-
     </Container>
   </Layout>
 )
