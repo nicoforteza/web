@@ -99,14 +99,15 @@ const Works = () => (
         </Section>
 
         <Section delay={0.3}>
-          <WorkGridItemNoLink
-            title="Evaluating the Measurement of Household Expectations with Audio Recordings"
-            meta_color_2={"red"}
-            meta2="Work in Progress"
+          <LinkGridItem
+            title="Assessing Subjective Probabilistic Expectations in Household Surveys with Audio Records"
+            href="https://zenodo.org/records/14019917" 
             meta1="2024"
+            meta2="Working Paper"
+            meta_color_2={"green"}
             >
             with Javier J. Alonso and Laura Crespo
-          </WorkGridItemNoLink>
+          </LinkGridItem>
         </Section>
 
       </SimpleGrid>
