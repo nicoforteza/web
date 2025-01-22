@@ -40,15 +40,14 @@ const Works = () => (
       <SimpleGrid columns={[1, 1, 2]} gap={1}>
 
       <Section delay={0.3}>
-          <LinkGridItem
-            href="FortezaLabeaga_v1.pdf"
+          <WorkGridItemNoLink
             title="Pollution, Density and Urban Access Regulations: European Evidence"
             meta_color_2={"green"}
-            meta2="DRAFT"
+            meta2="Draft soon!"
             meta1="2024"
             >
               with José M. Labeaga
-          </LinkGridItem>
+          </WorkGridItemNoLink>
         </Section>
 
       <Section delay={0.3}>
@@ -65,10 +64,9 @@ const Works = () => (
 
         <Section delay={0.3}>
           <LinkGridItem
-          href="https://www.bde.es/f/webbe/SES/Secciones/Publicaciones/PublicacionesSeriadas/DocumentosTrabajo/23/Files/dt2330e.pdf" 
+          href="https://journals.sagepub.com/doi/10.1177/0282423X241309971" 
           title="A Score Function to Prioritize Editing in Household Survey Data: A Machine Learning Approach"
-          meta1="2023"
-          meta2="Working Paper"
+          meta2="Publication"
           meta_color_2={"green"}
           >
           with Sandra García-Uribe
