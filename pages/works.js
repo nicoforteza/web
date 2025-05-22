@@ -43,7 +43,7 @@ const Works = () => (
           <WorkGridItemNoLink
             title="Pollution, Density and Urban Access Regulations: European Evidence"
             meta_color_2={"green"}
-            meta2="Draft soon!"
+            meta2="Draft available upon request"
             meta1="2024"
             >
               with José M. Labeaga
@@ -55,7 +55,7 @@ const Works = () => (
             href="https://www.bde.es/f/webbe/SES/Secciones/Publicaciones/PublicacionesSeriadas/DocumentosTrabajo/24/Files/dt2417e.pdf"
             title="Analysing the VAT Cut Pass-Through in Spain using Supermarkets' Web-scraped Data and Machine Learning"
             meta_color_2={"green"}
-            meta2="Working Paper"
+            meta2="Accepted Publication"
             meta1="2024"
             >
             with Elvira Prades and Marc Roca
@@ -76,10 +76,10 @@ const Works = () => (
         <Section delay={0.3}>
           <WorkGridItemNoLink
           id="styly" 
-          title="News Concentration"
+          title="Aggregate Shocks, News and Economic Activity"
           meta1="2023"
-          meta2="Work in Progress"
-          meta_color_2={"red"}
+          meta2="Draft soon!"
+          meta_color_2={"green"}
           >
           with Sandra García-Uribe
           </WorkGridItemNoLink>
@@ -89,7 +89,7 @@ const Works = () => (
           <WorkGridItemNoLink
             title="Measuring non-Workers Labor Market Attachment with Machine Learning"
             meta_color_2={"green"}
-            meta2="Draft soon!"
+            meta2="Draft available upon request"
             meta1="2023"
             >
             with Sergio Puente García
