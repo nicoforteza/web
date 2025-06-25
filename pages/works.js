@@ -52,11 +52,11 @@ const Works = () => (
 
       <Section delay={0.3}>
           <LinkGridItem
-            href="https://www.bde.es/f/webbe/SES/Secciones/Publicaciones/PublicacionesSeriadas/DocumentosTrabajo/24/Files/dt2417e.pdf"
+            href="https://link.springer.com/article/10.1007/s13209-025-00309-w"
             title="Analysing the VAT Cut Pass-Through in Spain using Supermarkets' Web-scraped Data and Machine Learning"
             meta_color_2={"green"}
-            meta2="Accepted Publication"
-            meta1="2024"
+            meta2="Publication"
+            meta1="2025"
             >
             with Elvira Prades and Marc Roca
           </LinkGridItem>
@@ -68,6 +68,7 @@ const Works = () => (
           title="A Score Function to Prioritize Editing in Household Survey Data: A Machine Learning Approach"
           meta2="Publication"
           meta_color_2={"green"}
+          meta1="2024"
           >
           with Sandra García-Uribe
           </LinkGridItem>
