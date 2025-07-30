@@ -64,7 +64,7 @@ const Works = () => (
 
         <Section delay={0.3}>
           <LinkGridItem
-          href="forteza_garcia-uribe-JOS.pdf" 
+          href="forteza_garcia-uribe_JOS.pdf" 
           title="A Score Function to Prioritize Editing in Household Survey Data: A Machine Learning Approach"
           meta2="Publication"
           meta_color_2={"green"}
