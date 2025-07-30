@@ -70,16 +70,15 @@ const Home = () => (
         
         >
         Hi! I'm a data scientist based in Madrid who enjoys creating data products and 
-        research in economics. I currently work at the DG of Economics, Statistics 
-        and Research of the {' '}
+        research in economics. I currently work at the DG of Economics at the {' '}
           <Link as={NextLink} href="https://www.bde.es/bde/es/" target='blank_' passHref scroll={false}>
             Bank of Spain
           </Link>
-          . I'm part of the team that conducts the {' '}
+          . As part of the Labor Markets and Households division, I contribute to research on multiple Economics topics using AI and data science techniques. Also, I contribute to the development and dissemination of the {' '}
           <Link as={NextLink} href="https://app.bde.es/efs_www/home?lang=ES" target='blank_' passHref scroll={false}>
             Spanish Survey of Household Finances
           </Link>
-          . In addition, I contribute to research on multiple Economics topics using data science techniques. I invite you to take a look at <span></span>
+          . I invite you to take a look at <span></span>
           <Link as={NextLink} href="/works" passHref scroll={false}>
             my work.
           </Link>
