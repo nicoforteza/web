@@ -52,7 +52,7 @@ const Works = () => (
 
       <Section delay={0.3}>
           <LinkGridItem
-            href="https://link.springer.com/article/10.1007/s13209-025-00309-w"
+            href="forteza_prades_roca_2025_VAT_passthrough.pdf"
             title="Analysing the VAT Cut Pass-Through in Spain using Supermarkets' Web-scraped Data and Machine Learning"
             meta_color_2={"green"}
             meta2="Publication"
@@ -64,7 +64,7 @@ const Works = () => (
 
         <Section delay={0.3}>
           <LinkGridItem
-          href="https://journals.sagepub.com/doi/10.1177/0282423X241309971" 
+          href="forteza_garcia-uribe-JOS.pdf" 
           title="A Score Function to Prioritize Editing in Household Survey Data: A Machine Learning Approach"
           meta2="Publication"
           meta_color_2={"green"}
