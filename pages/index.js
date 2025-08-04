@@ -115,6 +115,10 @@ const Home = () => (
           <BioYear>2020 to present</BioYear>
           Working at the Bank of Spain.
         </BioSection>
+        <BioSection>
+          <BioYear>2024</BioYear>
+          M.Sc. Economics Research at UNED
+        </BioSection>
       </Section>
 
       <Section delay={0.2}>
