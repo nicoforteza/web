@@ -87,15 +87,15 @@ const Works = () => (
         </Section>
 
         <Section delay={0.3}>
-          <LinkGridItem
-            href="forteza_puente_draft.pdf" 
+          <WorkGridItemNoLink
+            /*href="forteza_puente_draft.pdf" */
             title="Measuring non-Workers Labor Market Attachment with Machine Learning"
             meta_color_2={"green"}
             meta2="Working Paper"
             meta1="2024"
             >
             with Sergio Puente García
-          </LinkGridItem>
+          </WorkGridItemNoLink>
         </Section>
 
         <Section delay={0.3}>
