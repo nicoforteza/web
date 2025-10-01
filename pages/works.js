@@ -87,15 +87,16 @@ const Works = () => (
         </Section>
 
         <Section delay={0.3}>
-          <WorkGridItemNoLink
+          <LinkGridItem
             /*href="forteza_puente_draft.pdf" */
-            title="Measuring non-Workers Labor Market Attachment with Machine Learning"
+            title="Measuring non-Workers' Labor Market Attachment with Machine Learning"
+            href='https://www.bde.es/f/webbe/SES/Secciones/Publicaciones/PublicacionesSeriadas/DocumentosTrabajo/25/Files/dt2534e.pdf'
             meta_color_2={"green"}
             meta2="Working Paper"
-            meta1="2024"
+            meta1="2025"
             >
             with Sergio Puente García
-          </WorkGridItemNoLink>
+          </LinkGridItem>
         </Section>
 
         <Section delay={0.3}>
