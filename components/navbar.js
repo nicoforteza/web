@@ -78,9 +78,9 @@ const Navbar = props => {
           <LinkItem href="/stuff" path={path}>
             Random Stuff
           </LinkItem>
-          <LinkItem href='../cv.pdf' path={path} target="blank_">
+          {/* <LinkItem href='../cv.pdf' path={path} target="blank_">
             CV
-          </LinkItem>
+          </LinkItem> */}
         </Stack>
 
         <Box flex={1} align="right">
@@ -104,9 +104,9 @@ const Navbar = props => {
                 <MenuItem as={MenuLink} href="/stuff">
                   Stuff
                 </MenuItem>
-                <MenuItem as={MenuLink} href='../cv.pdf'>
+                {/* <MenuItem as={MenuLink} href='../cv.pdf'>
                   CV
-                </MenuItem>
+                </MenuItem> */}
               </MenuList>
             </Menu>
           </Box>
