@@ -74,7 +74,7 @@ const Home = () => (
           <Link as={NextLink} href="https://www.bde.es/bde/es/" target='blank_' passHref scroll={false}>
             Bank of Spain
           </Link>
-          . As part of the Labor Markets and Households division, I contribute to research on multiple Economics topics using AI and data science techniques. Also, I contribute to the development and dissemination of the {' '}
+          . As part of the Spanish Economy Department, I contribute to research on multiple Economics topics using AI and data science techniques. Also, I contribute to the development and dissemination of the {' '}
           <Link as={NextLink} href="https://app.bde.es/efs_www/home?lang=ES" target='blank_' passHref scroll={false}>
             Spanish Survey of Household Finances
           </Link>
