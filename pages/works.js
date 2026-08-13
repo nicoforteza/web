@@ -39,24 +39,38 @@ const Works = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={1}>
 
-      <Section delay={0.3}>
+        <Section delay={0.3}>
           <WorkGridItemNoLink
-            title="Pollution, Density and Urban Access Regulations: European Evidence"
+            title="The Productivity Effects of Digitalisation Subsidies: Evidence from Spain's Kit Digital Programme"
+            meta1="2026"
+            meta2="Draft soon!"
             meta_color_2={"green"}
-            meta2="Draft available upon request"
-            meta1="2024"
             >
-              with José M. Labeaga
+            with Lucía Kazarian and Enrique Moral-Benito
           </WorkGridItemNoLink>
         </Section>
 
-      <Section delay={0.3}>
+        <Section delay={0.3}>
+          <LinkGridItem
+            title="Pollution, Density and Low Emission Zones: European Evidence"
+            href="https://www.bde.es/f/webbe/SES/Secciones/Publicaciones/PublicacionesSeriadas/DocumentosTrabajo/26/Files/dt2621e.pdf"
+            meta1="2026"
+            meta2="Banco de España Working Paper"
+            meta_color_2={"purple"}
+            meta3="Submitted"
+            meta_color_3={"orange"}
+            >
+            with José M. Labeaga
+          </LinkGridItem>
+        </Section>
+
+        <Section delay={0.3}>
           <LinkGridItem
             href="forteza_prades_roca_2025_VAT_passthrough.pdf"
             title="Analysing the VAT Cut Pass-Through in Spain using Supermarkets' Web-scraped Data and Machine Learning"
-            meta_color_2={"green"}
-            meta2="Publication"
             meta1="2025"
+            meta2="Journal of the Spanish Economic Association"
+            meta_color_2={"green"}
             >
             with Elvira Prades and Marc Roca
           </LinkGridItem>
@@ -64,21 +78,35 @@ const Works = () => (
 
         <Section delay={0.3}>
           <LinkGridItem
-          href="forteza_garcia-uribe_JOS.pdf" 
+          href="forteza_garcia-uribe_JOS.pdf"
           title="A Score Function to Prioritize Editing in Household Survey Data: A Machine Learning Approach"
-          meta2="Publication"
+          meta1="2025"
+          meta2="Journal of Official Statistics"
           meta_color_2={"green"}
-          meta1="2024"
           >
           with Sandra García-Uribe
           </LinkGridItem>
         </Section>
 
         <Section delay={0.3}>
+          <LinkGridItem
+            title="Measuring non-Workers' Labor Market Attachment with Machine Learning"
+            href='https://www.bde.es/f/webbe/SES/Secciones/Publicaciones/PublicacionesSeriadas/DocumentosTrabajo/25/Files/dt2534e.pdf'
+            meta1="2025"
+            meta2="Banco de España Working Paper"
+            meta_color_2={"purple"}
+            meta3="Submitted"
+            meta_color_3={"orange"}
+            >
+            with Sergio Puente García
+          </LinkGridItem>
+        </Section>
+
+        <Section delay={0.3}>
           <WorkGridItemNoLink
-          id="styly" 
+          id="styly"
           title="Aggregate Shocks, News and Economic Activity"
-          meta1="2023"
+          meta1="2025"
           meta2="Draft soon!"
           meta_color_2={"green"}
           >
@@ -88,24 +116,11 @@ const Works = () => (
 
         <Section delay={0.3}>
           <LinkGridItem
-            /*href="forteza_puente_draft.pdf" */
-            title="Measuring non-Workers' Labor Market Attachment with Machine Learning"
-            href='https://www.bde.es/f/webbe/SES/Secciones/Publicaciones/PublicacionesSeriadas/DocumentosTrabajo/25/Files/dt2534e.pdf'
-            meta_color_2={"green"}
-            meta2="Working Paper"
-            meta1="2025"
-            >
-            with Sergio Puente García
-          </LinkGridItem>
-        </Section>
-
-        <Section delay={0.3}>
-          <LinkGridItem
             title="Assessing Subjective Probabilistic Expectations in Household Surveys with Audio Records"
-            href="https://zenodo.org/records/14019917" 
+            href="https://zenodo.org/records/14019917"
             meta1="2024"
-            meta2="Working Paper"
-            meta_color_2={"green"}
+            meta2="JSM Proceedings (ASA)"
+            meta_color_2={"purple"}
             >
             with Javier J. Alonso and Laura Crespo
           </LinkGridItem>

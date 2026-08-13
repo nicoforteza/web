@@ -25,12 +25,12 @@ const Home = () => (
       
       <Box display={{ md: 'flex' }}>
         <Box flexGrow={1}>
-          <Heading 
-          as="h2" 
+          <Heading
+          as="h1"
           variant="page-title"
           style={{'letterSpacing': '-0.3px'}}
           >
-            <h1>Nicolás Forteza</h1>
+            Nicolás Forteza
           </Heading>
           <p>Data Scientist</p>
         </Box>

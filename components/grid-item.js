@@ -79,7 +79,7 @@ export const WorkGridItem = ({ children, id, title, thumbnail, meta1, meta2, met
   </Box>
 )
 
-export const LinkGridItem = ({ children, id, title, href, meta1, meta2, meta_color_1, meta_color_2 }) => (
+export const LinkGridItem = ({ children, id, title, href, meta1, meta2, meta3, meta_color_1, meta_color_2, meta_color_3 }) => (
   <Box w="100%" textAlign="left">
     <LinkBox
       as={NextLink}
@@ -98,6 +98,11 @@ export const LinkGridItem = ({ children, id, title, href, meta1, meta2, meta_col
         <Meta color={meta_color_2}>
         {meta2}
         </Meta>
+        {meta3 && (
+        <Meta color={meta_color_3}>
+        {meta3}
+        </Meta>
+        )}
         </Text>
       </LinkOverlay>
       <Text fontSize={14}>{children}</Text>
@@ -131,7 +136,7 @@ export const WorkGridItemExternal = ({ children, href, id, title, thumbnail, met
   </Box>
 )
 
-export const WorkGridItemNoLink = ({ children, id, title, meta1, meta2, meta_color_1, meta_color_2 }) => (
+export const WorkGridItemNoLink = ({ children, id, title, meta1, meta2, meta3, meta_color_1, meta_color_2, meta_color_3 }) => (
   <Box w="100%" textAlign="left">
     <Box
       scroll={false}
@@ -145,6 +150,11 @@ export const WorkGridItemNoLink = ({ children, id, title, meta1, meta2, meta_col
         <Meta color={meta_color_2}>
         {meta2}
         </Meta>
+        {meta3 && (
+        <Meta color={meta_color_3}>
+        {meta3}
+        </Meta>
+        )}
         </Text>
       <Text fontSize={14}>{children}</Text>
     </Box>
