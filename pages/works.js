@@ -117,7 +117,7 @@ const Works = () => (
         <Section delay={0.3}>
           <LinkGridItem
             title="Assessing Subjective Probabilistic Expectations in Household Surveys with Audio Records"
-            href="https://zenodo.org/records/14019917"
+            href="https://zenodo.org/records/15593972"
             meta1="2024"
             meta2="JSM Proceedings (ASA)"
             meta_color_2={"purple"}
